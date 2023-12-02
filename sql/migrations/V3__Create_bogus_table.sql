@@ -7,4 +7,5 @@ create table bogus (
 go
 
 insert into bogus(col_a)
-values ("hello", "world")
+values ("hello", "world");
+go
