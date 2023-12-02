@@ -18,5 +18,5 @@ jobs:
         # Path to Flyway CLI
         $flyway_path = "C:\Program Files\Red Gate\Flyway Desktop\flyway"
         
-        # Running Flyway with Windows Authentication
+        # Running Flyway with Windows Authentication 
         & "$flyway_path/flyway" -X migrate -url="jdbc:sqlserver://AWS-PROD-SQL\\Sockeye;databaseName=flyway_gh_actions;integratedSecurity=true;encrypt=true;trustServerCertificate=true" -locations=filesystem:./sql/migrations
