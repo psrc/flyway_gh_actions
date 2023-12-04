@@ -7,4 +7,4 @@ create table t6 (
 go
 
 insert into t6(col_a)
-values ('another'), ('table'),('with'),('some'),('data');
+values ('another'),('table'),('with'),('some'),('data');
